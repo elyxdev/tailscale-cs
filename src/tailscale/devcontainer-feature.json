@@ -1,0 +1,17 @@
+{
+  "name": "Tailscale",
+  "id": "tailscale",
+  "version": "1.0.6",
+  "description": "Connect to your tailnet in your development container",
+  "documentationURL": "https://tailscale.com/kb/1160/github-codespaces/",
+  "licenseURL": "https://github.com/tailscale/codespace/blob/main/LICENSE",
+  "entrypoint": "/usr/local/sbin/tailscaled-entrypoint",
+  "capAdd": ["NET_ADMIN", "NET_RAW"],
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of Tailscale to download"
+    }
+  }
+}
