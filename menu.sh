@@ -14,11 +14,11 @@ while true; do
     case $opcion in
         1)
             echo "Instalando Tailscale..."
-            sudo bash /workspaces/MC-Server/src/tailscale/script.sh
+            sudo bash /workspaces/codespaces-jupyter/src/tailscale/script.sh
             ;;
         2)
             echo "Iniciando Tailscale en segundo plano..."
-            sudo bash /workspaces/MC-Server/src/tailscale/iniciar.sh > tailscale_log.txt 2>&1 &
+            sudo bash /workspaces/codespaces-jupyter/src/tailscale/iniciar.sh > tailscale_log.txt 2>&1 &
             echo "Tailscale se está iniciando en segundo plano. Puedes continuar utilizando el menú."
             ;;
         3)
