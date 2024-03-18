@@ -20,4 +20,5 @@ Pasos a seguir:
  
   9º Disfruta
 
-  #Este proyecto esta pensado para servidores forge, pero deberia funcionar tambien en servidores vanilla fabric etc.
+  #Este proyecto esta pensado para servidores forge.
+  
