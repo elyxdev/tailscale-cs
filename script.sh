@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # Define the Tailscale version to install
-VERSION="1.62.0"
+VERSION="1.68.1"
 
 tailscale_url="https://pkgs.tailscale.com/stable/tailscale_${VERSION}_amd64.tgz"
 
